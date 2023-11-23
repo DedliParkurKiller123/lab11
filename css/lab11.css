@@ -27,9 +27,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: #ffffff;
     font-size: 2vw;
     transition: 0.5s;
+    box-shadow: 0.2vw 0.2vw 0.2vw rgba(0, 0, 0, 0.774);
 }
 
 #window-win{
