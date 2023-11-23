@@ -81,7 +81,7 @@ $(document).ready(function() {
 
     function expansionElement() {
         windowForm.css({
-            'animation': 'expansion 0.3s infinite',
+            'animation': 'expansion 0.8s infinite',
         });
         setTimeout(() => {
             windowForm.css('animation', '');
