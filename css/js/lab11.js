@@ -154,8 +154,8 @@ $(document).ready(function() {
     function showResultGameWindow(){
         if(correct === 10){
             resultGameWindow.text('Ваш рівень знань чудовий!!!');
-        } else if(correct >= 6){
-            resultGameWindow.text('Ваш рівень знань чудовий!');
+        } else if(correct >= 6 && correct !== 10){
+            resultGameWindow.text('Ваш рівень знань вельми непоганий!');
         } else if (correct === uncorrect) {
             resultGameWindow.text('Ваш рівень знань середній.');
         } else if (correct < 1){
