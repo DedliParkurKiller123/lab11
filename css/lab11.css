@@ -214,12 +214,12 @@ input[type="text"]:hover{
         height: 40vh;
     }
     33% { 
-        width: 32vw;
-        height: 42vh;
+        width: 31vw;
+        height: 41vh;
     }
     66% { 
-        width: 28vw;
-        height: 38vh;
+        width: 29vw;
+        height: 39vh;
     }
     100% { 
         width: 30vw;
@@ -230,9 +230,11 @@ input[type="text"]:hover{
 @media screen and (max-width: 1000px) {
     #window-form {
         width: 55vw;
+        font-size: 3vw;
     }
     #window-form:hover {
         width: 60vw;
+        font-size: 3.5vw;
     }
     input[type="text"]{
         font-size: 1.5vw;
@@ -284,5 +286,31 @@ input[type="text"]:hover{
             width: 57vw;
             height: 40vh;
         }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #window-form {
+        height: 55vw;
+        top: 40%;
+    }
+    #window-form:hover {
+        height: 60vw;
+    }
+    #step{
+        height: 6vh;
+    }
+    #step:hover{
+        height: 8vh;
+    }
+    input[type="text"]{
+        top: 67%;
+    }
+    #answer{
+        top: 75%;
+        height: 5vh;
+    }
+    #answer:hover{
+        height: 8vh;
     }
 }
