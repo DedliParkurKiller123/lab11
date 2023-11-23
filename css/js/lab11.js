@@ -156,9 +156,9 @@ $(document).ready(function() {
             resultGameWindow.text('Ваш рівень знань чудовий!!!');
         } else if(correct >= 6 && correct !== 10){
             resultGameWindow.text('Ваш рівень знань вельми непоганий!');
-        } else if (correct === uncorrect) {
+        } else if (correct <= 5 && correct !== 0) {
             resultGameWindow.text('Ваш рівень знань середній.');
-        } else if (correct < 1){
+        } else if (correct === 0){
             resultGameWindow.text('Вам є куди рухатись.');
         }
         resultGameWindow.css({
